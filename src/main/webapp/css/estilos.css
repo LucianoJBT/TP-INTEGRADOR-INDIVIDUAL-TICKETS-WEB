@@ -1,0 +1,160 @@
+ /* INICION VAVBAR */
+ #verde {
+    color: green;
+}
+
+
+.margenHeader {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.container-fluid {
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+/* FIN NAVBAR  */
+
+.img_01 {
+
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    filter: brightness(50%);
+    width: fit-content;
+    height: auto;
+    /*  background-image: url("./imagenes/ba1.jpg");*/
+
+}
+
+.img_02 {
+    background-image: url(./imagenes/ba1.jpg);
+    background-size: contain;
+    background-position: center;
+    width: fit-content;
+    height: 800px;
+    z-index: 1;
+}
+
+.img_01_texto {
+    /* display: inline;*/
+    position: absolute;
+    color: rgb(196, 28, 28);
+    text-align: right;
+    top: 75%;
+    right: 10%;
+    z-index: 2;
+    background-image: url(./imagenes/ba1.jpg);
+
+
+}
+
+
+#demo-text {
+    font-size: 80px;
+    font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('https://s3.amazonaws.com/usefulangle/news/95-5f6cc1ad5575e.jpg');
+}
+
+section {
+    flex-direction: column;
+}
+
+.wrap {
+    width: 100vW;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../imagenes/ba1.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+.wrap-texto {
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 50%;
+    right: 10%;
+    z-index: 2;
+    /*background-image: url(./imagenes/ba1.jpg);*/
+
+
+}
+
+.botonTransparente {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+
+}
+
+.container2 {
+    margin-top: 50px;
+    display: flex;
+
+}
+
+
+.backgroundBsAs {
+    background-color: grey;
+}
+
+.textoBsAs {
+    color: #faf4f4;
+    background-color: grey;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+
+
+.container3 {
+    margin-top: 50px;
+    display: inline-block;
+
+}
+
+.estiloSubrayado{
+border-bottom: 1px black dashed;
+}
+
+.container4 {
+margin-left: 25%;
+margin-right: 25%;
+align-items: center;
+justify-content: center;
+
+}
+
+.wrapFooter {
+    margin-top: 20px;
+    background-image: linear-gradient(to right, rgb(21, 46, 64), rgb(63, 99, 149));
+    color: white;
+    height: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.wrapContenidoFooter {
+    display: inline-block;
+    align-items: flex-end;
+    /* 10px arriba, 3px derecha, 30px abajo, 5px izquierda */
+    margin: 10px 60px 10px 60px;
+
+    font-size: large;
+    align-items: center;
+    vertical-align: middle;
+}
